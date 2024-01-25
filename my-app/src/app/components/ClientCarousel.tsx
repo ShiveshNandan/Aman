@@ -44,26 +44,26 @@ export default class SimpleSlider extends Component {
       ]
     };
     return (
-      <div className="w-10/12 mx-auto text-center">
+      <div className="w-10/12 mx-auto text-center my-auto text-white">
         <h2 className="text-3xl font-semibold p-1">What our client say</h2>
-        <p className="text-gray-600 text-sm w-1/2 mx-auto my-3 mb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia ullam totam obcaecati consequatur debitis architecto necessitatibus ut excepturi repellendus labore odio ipsam blanditiis assumenda, voluptate facilis, ex reiciendis aspernatur.</p>
+        <p className="text-gray-200 text-sm w-1/2 mx-auto my-3 mb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia ullam totam obcaecati consequatur debitis architecto necessitatibus ut excepturi repellendus labore odio ipsam blanditiis assumenda, voluptate facilis, ex reiciendis aspernatur.</p>
         <Slider {...settings}>
-          <div className="h-[20vh] bg-blue-500 ">
+          <div className="h-[30vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[20vh] bg-blue-500 ">
+          <div className="h-[30vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[20vh] bg-blue-500 ">
+          <div className="h-[30vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[20vh] bg-blue-500 ">
+          <div className="h-[30vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[20vh] bg-blue-500 ">
+          <div className="h-[30vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[20vh] bg-blue-500 ">
+          <div className="h-[30vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
         </Slider>

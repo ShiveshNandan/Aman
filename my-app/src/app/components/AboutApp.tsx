@@ -3,7 +3,7 @@ import React from 'react'
 const AboutApp = () => {
   return (
     <div className='w-10/12 flex mx-auto'>
-      <div className="flex w-1/2 bg-blue-300 h-[80vh]">
+      <div className="flex w-1/2 bg-blue-300 h-[80vh] my-auto">
         <img src="" className='rounded-xl bg-black w-1/2 mx-auto' alt="" />
       </div>
       <div className="flex w-1/2 flex-col my-auto">

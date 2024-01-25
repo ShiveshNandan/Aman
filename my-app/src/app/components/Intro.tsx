@@ -12,7 +12,7 @@ const Intro = () => {
       </div>
 
 
-      <div className='flex flex-col w-6/12'>
+      <div className='flex flex-col w-6/12 my-auto'>
         <div className="flex">
         <div className="flex flex-col w-1/2  py-auto border rounded-md bg-pink-200 p-1 m-5">
             <img src="" alt="" className='w-20 h-20 rounded-full bg-blue-700 m-2' />

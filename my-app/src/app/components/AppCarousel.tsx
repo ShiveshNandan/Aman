@@ -49,22 +49,22 @@ export default class SimpleSlider extends Component {
         <h1 className="text-3xl font-semibold p-1">interface that user feel easy</h1>
         <p className="text-gray-600 text-sm w-1/2 mx-auto my-3 mb-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit mollitia ullam totam obcaecati consequatur debitis architecto necessitatibus ut excepturi repellendus labore odio ipsam blanditiis assumenda, voluptate facilis, ex reiciendis aspernatur.</p>
         <Slider {...settings}>
-          <div className="h-[80vh] bg-blue-500 ">
+          <div className="h-[60vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[80vh] bg-blue-500 ">
+          <div className="h-[60vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[80vh] bg-blue-500 ">
+          <div className="h-[60vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[80vh] bg-blue-500 ">
+          <div className="h-[60vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[80vh] bg-blue-500 ">
+          <div className="h-[60vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
-          <div className="h-[80vh] bg-blue-500 ">
+          <div className="h-[60vh] bg-blue-500 ">
             <img src="" className="w-2/3 bg-black h-[90%] mx-auto rounded-xl my-auto" alt="" />
           </div>
         </Slider>
