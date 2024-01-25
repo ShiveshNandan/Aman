@@ -6,6 +6,7 @@ import AboutApp from "./components/AboutApp";
 import AppCarousel from "./components/AppCarousel";
 import ClientCarousel from "./components/ClientCarousel";
 import Posts from "./components/Posts";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -28,9 +29,13 @@ export default function Home() {
     <div className="flex bg-blue-600 h-[90vh]">
     <ClientCarousel/>
     </div>
-    <div className="flex h-[90vh]">
+    <div className="flex h-[90vh] my-auto">
     <Posts/>
     </div>
+    <div className="flex h-[90vh] my-auto">
+    <Contact/>
+    </div>
+
     </>
   );
 }
